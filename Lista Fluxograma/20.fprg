@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 10:09:41 "/>
+        <attribute name="created" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjEwOjA0OjMzICI7MjIyOA=="/>
+        <attribute name="edited" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjEwOjA5OjQxICI7MTsyMzQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salario, conta1, conta2, resto" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o salario de Jo&#227;o&quot;" newline="True"/>
+            <input variable="salario"/>
+            <output expression="&quot;Digite o valor da primeira conta&quot;" newline="True"/>
+            <input variable="conta1"/>
+            <output expression="&quot;Digite o valor da segunda conta&quot;" newline="True"/>
+            <input variable="conta2"/>
+            <assign variable="resto" expression="salario - (conta1 + (0.02 * conta1)) -(conta2 + (0.02 * conta2))"/>
+            <output expression="&quot;Restar&#225; &quot; &amp; resto &amp; &quot; reais&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

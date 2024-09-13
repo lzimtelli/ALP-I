@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 09:55:48 "/>
+        <attribute name="created" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjUyOjEwICI7MjIzNA=="/>
+        <attribute name="edited" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjU1OjQ4ICI7MTsyMzU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="frangos" type="Integer" array="False" size=""/>
+            <declare name="reais" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a quantidade de frangos da granja&quot;" newline="True"/>
+            <input variable="frangos"/>
+            <assign variable="reais" expression="(frangos * 4) + (frangos * 2 * 3.50)"/>
+            <output expression="&quot;Valor total = &quot; &amp; reais &amp; &quot; reais&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

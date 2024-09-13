@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 10:18:48 "/>
+        <attribute name="created" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjEwOjExOjUyICI7MjIyNw=="/>
+        <attribute name="edited" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjEwOjE4OjQ4ICI7MTsyMzQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="batimentos, anos, dias, horas, minutos, segundos" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite os anos&quot;" newline="True"/>
+            <input variable="anos"/>
+            <assign variable="dias" expression="anos * 365.25"/>
+            <assign variable="horas" expression="dias * 24"/>
+            <assign variable="minutos" expression="horas * 60"/>
+            <assign variable="segundos" expression="minutos * 60"/>
+            <assign variable="batimentos" expression="segundos"/>
+            <output expression="batimentos &amp; &quot; batimentos&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

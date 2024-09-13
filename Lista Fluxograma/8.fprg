@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 09:35:30 "/>
+        <attribute name="created" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjMxOjE4ICI7MjIzOQ=="/>
+        <attribute name="edited" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjM1OjMwICI7MTsyMzQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anos, meses, dias" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite sua idade&quot;" newline="True"/>
+            <input variable="anos"/>
+            <assign variable="meses" expression="anos * 12"/>
+            <assign variable="dias" expression="anos * 365"/>
+            <output expression="&quot;Dias = &quot; &amp; dias" newline="True"/>
+            <output expression="&quot;Meses = &quot; &amp; meses" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

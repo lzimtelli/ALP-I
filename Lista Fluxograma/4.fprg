@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 09:29:24 "/>
+        <attribute name="created" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjIzOjMwICI7MjIzNA=="/>
+        <attribute name="edited" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjI5OjI0ICI7MTsyMzUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cavalos, ferraduras" type="Integer" array="False" size=""/>
+            <declare name="horas" type="Real" array="False" size=""/>
+            <output expression="&quot;Quantos cavalos foram comprados?&quot;" newline="True"/>
+            <input variable="cavalos"/>
+            <assign variable="ferraduras" expression="cavalos * 4"/>
+            <assign variable="horas" expression="ferraduras * 15"/>
+            <assign variable="horas" expression="horas / 60"/>
+            <output expression="&quot;Foram gastas &quot; &amp; horas &amp; &quot; hora(s)&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

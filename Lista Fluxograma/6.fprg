@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 09:31:12 "/>
+        <attribute name="created" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjI5OjI3ICI7MjI0Ng=="/>
+        <attribute name="edited" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjMxOjEyICI7MTsyMzQx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, base, altura" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o tamanho da base&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Digite a altura&quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="area" expression="(base*altura)/2"/>
+            <output expression="&quot;Area = &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

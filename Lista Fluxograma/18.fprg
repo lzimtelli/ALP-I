@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 10:00:24 "/>
+        <attribute name="created" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjU1OjUxICI7MjI0Mg=="/>
+        <attribute name="edited" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjEwOjAwOjI0ICI7MTsyMzMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="trabalho, avaliacao, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a nota da avalia&#231;&#227;o&quot;" newline="True"/>
+            <input variable="avaliacao"/>
+            <output expression="&quot;Digite a nota do trabalho&quot;" newline="True"/>
+            <input variable="trabalho"/>
+            <assign variable="media" expression="(avaliacao * 6 + trabalho * 4) / 10"/>
+            <output expression="&quot;Media ponderada: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

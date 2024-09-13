@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 09:49:41 "/>
+        <attribute name="created" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjQ1OjE1ICI7MjI0MQ=="/>
+        <attribute name="edited" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjQ5OjQxICI7MTsyMzUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="preco, kg, total" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor do kg&quot;" newline="True"/>
+            <input variable="preco"/>
+            <output expression="&quot;Digite o peso&quot;" newline="True"/>
+            <input variable="kg"/>
+            <assign variable="total" expression="(kg - 0.650) * preco"/>
+            <output expression="&quot;Pre&#231;o da refei&#231;&#227;o: &quot; &amp; total &amp; &quot; reais&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

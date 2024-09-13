@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-02 09:45:12 "/>
+        <attribute name="created" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjM1OjUxICI7MjI0MA=="/>
+        <attribute name="edited" value="QWx1bm87TEFCMTA2TTA2OzIwMjMtMDUtMDI7IjA5OjQ1OjEyICI7MTsyMzQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="preco, litros, reais" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual o pre&#231;o da gasolina?&quot;" newline="True"/>
+            <input variable="preco"/>
+            <output expression="&quot;Digite quantos reais quer colocar&quot;" newline="True"/>
+            <input variable="reais"/>
+            <assign variable="litros" expression="reais/preco"/>
+            <output expression="&quot;Litros abastecidos: &quot; &amp; litros" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
